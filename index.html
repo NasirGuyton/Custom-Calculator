@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplication Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section>
+    <div class="column-left">
+      <label for="number1">Number 1</label>
+      <input id="number1" type="number" min="0" placeholder="Enter first number">
+      
+      <label for="number2">Number 2</label>
+      <input id="number2" type="number" min="0" placeholder="Enter second number">
+    </div>
+    
+    <div class="column-right">
+      <div class="result">
+        <div>
+          <span>Product</span>
+        </div>
+        <span id="product-result">0.00</span>
+      </div>
+    </div>
+    
+    <button id="calculate-button">Calculate</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
