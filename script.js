@@ -7,7 +7,7 @@ function calculateProduct() {
   let num1 = parseFloat(number1.value);
   let num2 = parseFloat(number2.value);
 
-  // Check if both inputs are valid numbers
+
   if (!isNaN(num1) && !isNaN(num2)) {
     let product = num1 * num2;
     productResult.textContent = product.toFixed(2);
@@ -16,5 +16,5 @@ function calculateProduct() {
   }
 }
 
-// Event listener for the calculate button
+
 calculateButton.addEventListener('click', calculateProduct);
